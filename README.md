@@ -57,4 +57,38 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 
 * When you are done, compress the `arxiv/` folder, for instance by creating the file `arxiv.zip`
 
-## 
+## Upload your manuscript on arXiv
+
+* Log in to Arxiv and click `START NEW SUBMISSION`
+
+* Tick the appropriate boxes in the sections `Verify your Contact information`,
+    `Submission Agreement`, and `Authorship`.
+
+* Select a License for your document. As of the time of writing [NWO
+  recommends](https://www.nwo.nl/sites/nwo/files/media-files/NWO%20Open%20Access%20policy%202016-2020_ENG_0.pdf)
+  (but does not strictly require) to use any Creative Commons (CC) licence for your
+  publication. **As a simple rule of thumb, uploading the accepted version of your
+  manuscript on arXiv under the `CC BY: Creative Commons Attibution` license** makes
+  it fuly compliant with NWO Open Science policy. Any variant of the CC BY licence is
+  also compliant with the NWO Open Science policy. Clicking on the info `i` button on
+  the Arxiv website will give a quick description of the license variant. 
+
+* Specify a Subject class for the manuscript, and click `continue`.
+
+* Upload the `arxiv.zip` file prepared in the last section. ArXiv will unpack the
+    file, and provide you with a list of files. Click `Continue: Process Files`
+
+* If the compilation has been successful, you can now preview your manuscript and
+    click `Continue`. There is also a logfiel that can help you understanding what
+    has gone wrong in the compilation.
+    [Here](https://info.arxiv.org/help/faq/mistakes.html) you can find common
+    mistakes that cause the compilation to fail.
+
+* Write Title, Author, and Abstract of your paper. The journal reference of your
+    article, as well as its DOI, can be added at a later stage, if you don't have
+    them yet. Press `Save and Continue`
+  
+* You are now at the final page of your submission. This is where this tutorial ends.
+    In an ordinary publication, you can now preview the article and then submit,
+    following the instruction under `View PDF`. **Please do not submit this
+    template as this action is not reversible**.
