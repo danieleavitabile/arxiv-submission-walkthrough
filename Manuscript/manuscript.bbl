@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{KoMa14}
+{\sc T.~G. Kolda and J.~R. Mayo}, {\em An adaptive shifted power method for
+  computing generalized tensor eigenpairs}, SIAM Journal on Matrix Analysis and
+  Applications, 35 (2014), pp.~1563--1581,
+  \url{https://doi.org/10.1137/140951758}.
+
+\bibitem{siam}
+{\em {SIAM} style manual: For journals and books}, 2013,
+  \url{https://www.siam.org/journals/pdf/stylemanual.pdf}.
+
+\end{thebibliography}
