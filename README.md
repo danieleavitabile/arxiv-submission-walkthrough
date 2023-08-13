@@ -5,48 +5,49 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 ## Prerequisites and preliminary information
 
 * The walkthrough is meant to guide you up to the point where the paper is ready for
-  submission, but **it is important that you do not finalize the submission of this
-  template, as this is irreversible**. As you will see, a submission can not be
-  triggered accidentally, so there is nothing to worry about. You should just avoid
-  doing the final step
+  submission on arXiv, but **please do not not finalise the submission of this
+  template, as this action is irreversible**. As you will see, a submission can not be
+  triggered accidentally, so you are safe to experiment with the steps below. You
+  should just avoid completing the submission, after the last step of the
+  walkfthrough.
 
-* We assume prior elementary knowledge of how LaTeX works.
-
-* It is assumed that you have created an account on [arXiv](https://arxiv.org). 
+* The walkthrough assumes you have prior basic knowledge of how LaTeX works. It is
+  also assumed you have created an account on [arXiv](https://arxiv.org). 
 
 ## Preparing a folder for submission
 
-* From the right-hand side panel of this, download the latest release of this
+* From the right-hand side panel of our GitHub webpage, download the latest release of this
   repository. The Manuscript folder contains an example of LaTeX manuscript,
   including all the compilation files. 
 
 * Create an empty `arxiv/` folder, at the same level as `Manuscript`. You will now
     start transferring files to this new folder: the main idea is to prepare a
-    standalone folder that arXiv will compile, and recreate a pdf of your manuscript. 
+    standalone folder that arXiv will compile, and recreate a pdf of your manuscript.
+    There are some specific steps for arXiv submissions, tho
 
 * Copy the manuscript source file (`.tex`) to the `arxiv/` folder. The main file must
     be at the top level of this folder (you can not put it in a subfolder).
 
 * Copy your figures. In our example, this means copying `Manuscript/Figures` into
     `arxiv/Figures`, because our manuscript searches for figure files in this folder.
-    ArXiv uses `pdflatex` for compilation, so you should use a format compatbile with
+    ArXiv uses `pdflatex` for compilation, so we recommend using use a format compatbile with
     this compiler (`.pdf/.png/.jpg/`).
 
-* Copy style and macro files to `arxiv/`. In the example, we are using SIAM class and style
+* Copy style and macro files to `arxiv/`. In the example, we are using the SIAM class and style
   files (`.cls` and `.bst` files), as well a file with personal macros (`.sty` file).
 
-* Copy your bibliographic data. **This step is a bit more delicate.** On our
-  computer, we would compile a `.bib` file, and use `bibtex` in between several
-  `pdflatex` compilations, to o generate the bibliography. On our computer, the
-  bibliographic data after compilation is stored in a `.bbl` file. ArXiv, does not
-  run `bibtex` for the compilation. Rather, arXiv expects to find a fully compiled
-  `.bbl` file in the directory. Hence, you must copy your `.bbl` file to the `arxiv/`
-  folder.
+* Copy your bibliographic data. **If you use `bibtex`, as in this example, this step
+  is a bit more delicate.** On our computer, we would compile a `.bib` file, and use
+  `bibtex` in between several `pdflatex` compilations, to generate the
+  bibliography. On our computer, the bibliographic data after compilation is stored
+  in a `.bbl` file. ArXiv, does not run `bibtex` for the compilation. Rather, arXiv
+  expects to find a fully compiled `.bbl` file in the main directory. Hence, you
+  must copy the `.bbl` file resulting from your compilation to the `arxiv/` folder.
 
 * Optionally, create and write a new `arxiv/00README.XXX` file. In this file, you can specify
   options to be passed to arXiv. In most of my submissions, this file contains just
-  one word, namely `nostamp`. I use this to avoid that Arxiv stamps the left-edge of
-  the manuscript. More infos about the `00README.XX` file can be read
+  one word, namely `nostamp`. I use this to avoid that arXiv stamps the left-edge of
+  the manuscript. More infos about the `00README.XX` file can be found
   [here](https://info.arxiv.org/help/00README.html)
 
 * It is possible that your manuscript has a more complex structure than the one
@@ -62,7 +63,7 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 * Log in to Arxiv and click `START NEW SUBMISSION`
 
 * Tick the appropriate boxes in the sections `Verify your Contact information`,
-    `Submission Agreement`, and `Authorship`.
+  `Submission Agreement`, and `Authorship`.
 
 * Select a License for your document. As of the time of writing [NWO
   recommends](https://www.nwo.nl/sites/nwo/files/media-files/NWO%20Open%20Access%20policy%202016-2020_ENG_0.pdf)
@@ -76,17 +77,16 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 * Specify a Subject class for the manuscript, and click `continue`.
 
 * Upload the `arxiv.zip` file prepared in the last section. ArXiv will unpack the
-    file, and provide you with a list of files. Click `Continue: Process Files`
+  file, and provide you with a list of files. Click `Continue: Process Files`
 
 * If the compilation has been successful, you can now preview your manuscript and
-    click `Continue`. There is also a logfiel that can help you understanding what
-    has gone wrong in the compilation.
-    [Here](https://info.arxiv.org/help/faq/mistakes.html) you can find common
-    mistakes that cause the compilation to fail.
+    click `Continue`. There is also a logfile that can help if something goes wrong
+    in the compilation. [Here](https://info.arxiv.org/help/faq/mistakes.html) are
+    common mistakes that cause the compilation to fail.
 
-* Write Title, Author, and Abstract of your paper. The journal reference of your
-    article, as well as its DOI, can be added at a later stage, if you don't have
-    them yet. Press `Save and Continue`
+* Write Title, Author, and Abstract of the paper. The journal reference of your
+  article, as well as its DOI, can be added at a later stage, if you don't have them
+  yet. Press `Save and Continue`
   
 * You are now at the final page of your submission. This is where this tutorial ends.
     In an ordinary publication, you can now preview the article and then submit,
