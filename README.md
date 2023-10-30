@@ -23,7 +23,7 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 * Create an empty `arxiv/` folder, at the same level as `Manuscript`. You will now
     start transferring files to this new folder: the main idea is to prepare a
     standalone folder that arXiv will compile, and recreate a pdf of your manuscript.
-    There are some specific steps for arXiv submissions, tho
+    There are some specific steps for arXiv submissions, though.
 
 * Copy the manuscript source file (`.tex`) to the `arxiv/` folder. The main file must
     be at the top level of this folder (you can not put it in a subfolder).
