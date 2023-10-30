@@ -11,7 +11,7 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 
 ## Preparing a folder for submission
 
-1. From the right-hand side panel of our GitHub webpage, download the latest release of this repository. The Manuscript folder contains an example of LaTeX manuscript, including all the compilation files. 
+1. From the right-hand side panel of our GitHub webpage, download the latest release of this repository, v1.0.0 at the time of writing. The Manuscript folder contains an example of LaTeX manuscript, including all the compilation files. 
 
 1. Create an empty `arxiv/` folder, at the same level as `Manuscript`. You will now start transferring files to this new folder: the main idea is to prepare a standalone folder that arXiv will compile, and recreate a pdf of your manuscript.  There are some specific steps for arXiv submissions, though.
 
