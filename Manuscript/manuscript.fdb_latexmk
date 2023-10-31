@@ -1,12 +1,12 @@
 # Fdb version 3
-["bibtex manuscript"] 1691650283 "manuscript.aux" "manuscript.bbl" "manuscript" 1691658383
+["bibtex manuscript"] 1691650283 "manuscript.aux" "manuscript.bbl" "manuscript" 1698755911
   "./siamplain.bst" 1542791838 20596 0aeadd96484ccdb5bc1b4f2635f3e545 ""
   "manuscript.aux" 1691650284 4400 184759a8f0fe89bd650ff074d3034923 "pdflatex"
   "references.bib" 1572970071 3700 4cbc971ab880666aac1acb084de36dcc ""
   (generated)
-  "manuscript.blg"
   "manuscript.bbl"
-["pdflatex"] 1691650283 "manuscript.tex" "manuscript.pdf" "manuscript" 1691658383
+  "manuscript.blg"
+["pdflatex"] 1691650283 "manuscript.tex" "manuscript.pdf" "manuscript" 1698755911
   "/usr/local/texlive/2020/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1246382020 1004 54797486969f23fa377b128694d548df ""
   "/usr/local/texlive/2020/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1246382020 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -188,11 +188,11 @@
   "manuscript.aux" 1691650284 4400 184759a8f0fe89bd650ff074d3034923 "pdflatex"
   "manuscript.bbl" 1691650283 442 3e987a93a9624ecaa155bec5eb353852 "bibtex manuscript"
   "manuscript.out" 1691650284 659 f2abe086049f6e49a880c2a9c6d6c7a0 "pdflatex"
-  "manuscript.tex" 1691650278 3112 fe9cac355c0e500071b2b8274cdbb930 ""
+  "manuscript.tex" 1698755911 3112 fe9cac355c0e500071b2b8274cdbb930 ""
   "siamart190516.cls" 1557928744 71703 383a1d448fa5f1cb6265405c26191647 ""
   (generated)
   "manuscript.aux"
-  "manuscript.out"
-  "manuscript.thm"
   "manuscript.pdf"
   "manuscript.log"
+  "manuscript.thm"
+  "manuscript.out"
