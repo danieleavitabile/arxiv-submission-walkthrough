@@ -46,3 +46,9 @@ This is a quick guide to submit papers on [arXiv](https://arxiv.org).
 1. Write Title, Author, and Abstract of the paper. The journal reference of your article, as well as its DOI, can be added at a later stage, if you don't have them yet. Press `Save and Continue`
   
 1. You are now at the final page of your submission. This is where this tutorial ends.  In an ordinary publication, you can now preview the article and then submit, following the instruction under `View PDF`. **Please do not submit this template as this action is not reversible**.
+
+TODO address the following comments:
+- [ ] What happens if I have a paper with one main.tex file, and several included dependencies in .tex files? 
+- [ ] Are comments in the LaTeX file visible to the outside world?
+- [ ] Can I change files one at a time?
+- [ ] What happens to the file after submission?
